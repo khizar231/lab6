@@ -1,0 +1,15 @@
+\nSUMMARY {'strategy': '0', 'backend': 'tfidf', 'split': 'dev', 'chunk_count': 31, 'hit_at_3': 1.0, 'mrr_at_3': 0.75, 'setup_seconds': 0.002145083000002046, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.004065517000000796, 'max_model_tokens': None}
+\nSUMMARY {'strategy': '0', 'backend': 'tfidf', 'split': 'test', 'chunk_count': 31, 'hit_at_3': 0.75, 'mrr_at_3': 0.625, 'setup_seconds': 0.002145083000002046, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.004065517000000796, 'max_model_tokens': None}
+Embedding configuration unavailable: ModuleNotFoundError("No module named 'sentence_transformers'")
+Install requirements and ensure model download/cache is available; TF-IDF runs continue.
+\nSUMMARY {'strategy': '10', 'backend': 'tfidf', 'split': 'dev', 'chunk_count': 39, 'hit_at_3': 1.0, 'mrr_at_3': 0.875, 'setup_seconds': 0.0015765039999990904, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.003952506000004519, 'max_model_tokens': None}
+\nSUMMARY {'strategy': '10', 'backend': 'tfidf', 'split': 'test', 'chunk_count': 39, 'hit_at_3': 1.0, 'mrr_at_3': 0.75, 'setup_seconds': 0.0015765039999990904, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.003952506000004519, 'max_model_tokens': None}
+Embedding configuration unavailable: ModuleNotFoundError("No module named 'sentence_transformers'")
+Install requirements and ensure model download/cache is available; TF-IDF runs continue.
+\nSUMMARY {'strategy': 'sentence', 'backend': 'tfidf', 'split': 'dev', 'chunk_count': 38, 'hit_at_3': 1.0, 'mrr_at_3': 0.7083333333333334, 'setup_seconds': 0.0013368219999989606, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.008208400000000893, 'max_model_tokens': None}
+\nSUMMARY {'strategy': 'sentence', 'backend': 'tfidf', 'split': 'test', 'chunk_count': 38, 'hit_at_3': 1.0, 'mrr_at_3': 0.8333333333333333, 'setup_seconds': 0.0013368219999989606, 'model_load_seconds': 0.0, 'corpus_encode_seconds': 0.0, 'search_all_queries_seconds': 0.008208400000000893, 'max_model_tokens': None}
+Embedding configuration unavailable: ModuleNotFoundError("No module named 'sentence_transformers'")
+Install requirements and ensure model download/cache is available; TF-IDF runs continue.
+\nWrote retrieval_log.csv and evaluation_summary.json
+Unanswerable queries are logged but excluded from Hit@3/MRR@3 relevance metrics.
+Inspect unanswerable-query scores separately; a top-ranked candidate is not proof of an answer.
